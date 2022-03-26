@@ -1,20 +1,29 @@
 # COOL_TEES
+
 ```
 Cafe Menu App, with a frontend built in React & Redux and a backend built in Django API.
 ```
+
 Check out [FRONTEND LIVE DEMO](https://coo-tees-frontend.herokuapp.com) here!!
 Check out [API LIVE DEMO](https://cool-tees-backend.herokuapp.com) here!!
+
 ## Tech used
+
 ```
 * Frontend : React & Redux
 * Backend : Django
 ```
+
 ## How to Install
+
 1. Git Clone
-```
 
 ```
+https://github.com/TronJones/Cool-Tees.git
+```
+
 2. Backend setting
+
 ```
 cd backend
 Python -m venv env
@@ -26,7 +35,9 @@ python manage.py migrate
 python manage.py runserver
 # Open http://127.0.0.1:8000/posts/
 ```
+
 3. Frontend setting
+
 ```
 cd frontend
 npm install
