@@ -45,8 +45,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'apps.users', 
-    'apps.carts', 
+    'apps.users',
+    'apps.carts',
     'apps.orders',
     'apps.items',
     'cloudinary',
@@ -93,11 +93,11 @@ WSGI_APPLICATION = 'config.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'd7rtl5vo7sq6nu',
-        'USER': 'kxqrkacdytfndi',
+        'NAME': 'd9s3c08tp9n71r',
+        'USER': 'iserxujuaviohn',
         'PORT': 5432,
-        'HOST': 'ec2-3-229-161-70.compute-1.amazonaws.com',
-        'PASSWORD': 'f249dfdbc763347e3c0e439053e0225cbfd0b6caa0c17bf418c30f00b943634e',
+        'HOST': 'ec2-44-194-92-192.compute-1.amazonaws.com',
+        'PASSWORD': '32fcbc08b6810f44b40a9a3604b6153bd7199c6e60d0a921af86b93bf875604c',
     }
 }
 
@@ -167,4 +167,3 @@ cloudinary.config(
 REST_FRAMEWORK = {
     'DEFAULT_FILTER_BACKENDS': ['django_filters.rest_framework.DjangoFilterBackend']
 }
-
